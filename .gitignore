@@ -1,0 +1,29 @@
+# General
+node_modules/
+.cache/
+yarn-error.log
+
+# Hardhat
+artifacts/
+cache/
+
+# Firebase
+*.key
+*.pem
+
+# React
+build/
+public/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Yarn v3
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions

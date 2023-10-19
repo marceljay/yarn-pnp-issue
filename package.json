@@ -1,0 +1,14 @@
+{
+  "name": "my-mono-repo",
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "BUSL-1.1",
+  "packageManager": "yarn@3.6.4",
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "husky": "^8.0.3"
+  }
+}
